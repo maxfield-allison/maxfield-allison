@@ -27,3 +27,5 @@ in a language I didn't know going in, so I know what "slower" actually looks lik
 
 Reach me: [maxfieldallison.com](https://maxfieldallison.com) ·
 [LinkedIn](https://www.linkedin.com/in/maxfield-allison/)
+
+<sub>Currently: running the homelab on Kubernetes, maintaining dnsweaver, and writing about both.</sub>
