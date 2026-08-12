@@ -15,11 +15,13 @@ in a language I didn't know going in, so I know what "slower" actually looks lik
 
 **What I build and run:**
 - [dnsweaver](https://github.com/maxfield-allison/dnsweaver): a Go tool that
-  keeps DNS records in sync with your infrastructure across Technitium, Pi-hole,
-  AdGuard, and Cloudflare. Multi-provider, split-horizon, self-hosted. Full CI/CD
-  and semver. People actually run it.
-- A Talos/Kubernetes homelab under GitOps: 5-node control plane, GPU workloads
-  scheduled with NVIDIA MPS, OpenTofu and Ansible for everything below the cluster.
+  keeps DNS records in sync with your infrastructure. Seven sources, eleven DNS
+  providers including the self-hosted ones most tools skip (Technitium, Pi-hole,
+  AdGuard). Split-horizon from the same labels. Full CI/CD and semver. People
+  actually run it.
+- A Talos/Kubernetes homelab under GitOps: nine nodes, three of them control
+  plane, GPUs shared between workloads by time-slicing, OpenTofu and Ansible for
+  everything below the cluster.
 - Migrated the whole thing from Docker Swarm to Kubernetes without losing service.
 - [This site](https://github.com/maxfield-allison/personal-site):
   [maxfieldallison.com](https://maxfieldallison.com), self-hosted on the cluster
