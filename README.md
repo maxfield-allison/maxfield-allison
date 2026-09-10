@@ -1,33 +1,18 @@
-### Hi, I'm Maxfield
+# Maxfield Allison
 
-I run a homelab that got out of hand. It started as a Plex server. It's now a
-9-node Kubernetes cluster on Talos Linux, managed with ArgoCD, running 38-ish
-services. I use it to learn the patterns real infrastructure teams use (GitOps,
-IaC, observability) by operating them instead of reading about them. By day I own
-a multi-region enterprise Azure platform.
+I design infrastructure and look after what happens once it's running. My work spans enterprise platforms, open-source infrastructure tooling, and the systems I run at home.
 
-**How I work:** AI-assisted engineering. I design the architecture, set the
-standards, and direct the implementation with LLM agents. It isn't vibe coding.
-I reject a good chunk of what the models hand back and iterate until it meets the
-bar. The judgment is mine; the typing is just faster. If the AI disappeared
-tomorrow the work would get slower, not stop. I've shipped features to OPNsense
-in a language I didn't know going in, so I know what "slower" actually looks like.
+This GitLab is where much of the ongoing project work happens. The calendar includes issues, merge requests, pushes, and comments. Most projects are private, but you can see the activity here.
 
-**What I build and run:**
-- [dnsweaver](https://github.com/maxfield-allison/dnsweaver): a Go tool that
-  keeps DNS records in sync with your infrastructure. Seven sources, eleven DNS
-  providers including the self-hosted ones most tools skip (Technitium, Pi-hole,
-  AdGuard). Split-horizon from the same labels. Full CI/CD and semver. People
-  actually run it.
-- A Talos/Kubernetes homelab under GitOps: nine nodes, three of them control
-  plane, GPUs shared between workloads by time-slicing, OpenTofu and Ansible for
-  everything below the cluster.
-- Migrated the whole thing from Docker Swarm to Kubernetes without losing service.
-- [This site](https://github.com/maxfield-allison/personal-site):
-  [maxfieldallison.com](https://maxfieldallison.com), self-hosted on the cluster
-  with a Cloudflare Pages failover mirror.
+I direct AI agents through implementation and own the engineering decisions. I write about that process, including what goes wrong, at [ProbablyFine](https://probablyfine.dev).
 
-Reach me: [maxfieldallison.com](https://maxfieldallison.com) ·
-[LinkedIn](https://www.linkedin.com/in/maxfield-allison/)
+## Start here
 
-<sub>Currently: running the homelab on Kubernetes, maintaining dnsweaver, and writing about both.</sub>
+- [Portfolio and case studies](https://maxfieldallison.com)
+- [Writing and the lab](https://probablyfine.dev)
+- [Public code on GitHub](https://github.com/maxfield-allison)
+- [dnsweaver](https://github.com/maxfield-allison/dnsweaver), which keeps DNS records in step with infrastructure
+
+## Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/maxfield-allison/) · [Bluesky](https://bsky.app/profile/maxfieldallison.com) · [Facebook](https://www.facebook.com/maxfield.allison)
