@@ -5,7 +5,7 @@
 [![GitLab activity](https://img.shields.io/badge/GitLab_activity-334155?style=flat-square&logo=gitlab&logoColor=FC6D26)](https://gitlab.probablyfine.dev/maxfield-allison)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-334155?style=flat-square)](https://www.linkedin.com/in/maxfield-allison/)
 
-I design infrastructure and look after what happens once it's running. My work spans enterprise platforms, open-source infrastructure tooling, and the systems I run at home.
+I design infrastructure and look after it once it's running. My work spans enterprise platforms, open-source infrastructure tooling, and the systems I run at home.
 
 My public code and open-source contributions are here on GitHub. Much of the ongoing project work happens on [my GitLab](https://gitlab.probablyfine.dev/maxfield-allison), where you can see activity from private projects too.
 
